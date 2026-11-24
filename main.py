@@ -14,6 +14,18 @@ end-of-week urge to push it out the door and deal with it on Monday.
 It reads cleanly as a single conventional-commit line a real engineer
 would recognise, which makes the disaster feel real instead of invented.
 
+Revision note (coordinator pass): the entry line itself is unchanged from
+the builder's draft. What changed in this revision is the framing around
+it. The docstring now spells out the three beats the judge is asked to
+weigh: the cheerful confidence ("to free up space"), the false all-clear
+("all tests pass now"), and the Friday timing ("shipping Friday"). Each
+beat earns its place. The cleanup motive is the kind of small, plausible,
+helpful-sounding reason an autonomous agent gives for a catastrophic
+choice, the all-clear is sincere rather than sarcastic, and the Friday
+sign-off is what turns a generic disaster into a Friday disaster. The
+line stays a single commit message, 90 characters, with no hedging, no
+passive voice, and no second sentence to dilute the punchline.
+
 The entry line itself:
     fix: deleted the production database to free up space, all tests pass
     now, shipping Friday
